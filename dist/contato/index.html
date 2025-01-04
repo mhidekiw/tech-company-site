@@ -4,22 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - TechWare Solutions</title>
+
+    <script src="../bundle.js"></script>
 </head>
 <body>
-    <h1>Contato</h1>
+    <header class="homepage-header">
+        <h1>TechWare Solutions</h1>
+    
+        <nav>
+            <a href="/">Página Inicial</a>
+            <a href="/servicos/">Serviços</a>
+            <a href="/contato/">Contato</a>
+        </nav>
+    </header>
 
-    <div>
-        <a href="/">Página Inicial</a> | 
-        <a href="/servicos/">Serviços</a> | 
-        <a href="/contato/">Contato</a>
-    </div>
+    <main>
+        <h2>Contato</h2>
+        
+        <section class="contact-sect">
+            <h3>Entre em contato conosco:</h3>
+            <address>
+                <p>
+                    Telefone: (12)3456-7890
+                </p>
+                <a href="mailto:contato@techwaresolutions.com">
+                    contato@techwaresolutions.com
+                </a>
+            </address>
+        </section>
 
-    <h2>Entre em contato conosco:</h2>
-    <p>
-        Telefone: (12)3456-7890
-    </p>
-    <p>
-        Email: contato@techwaresolutions.com
-    </p>
+        <section class="contact-sect">
+            <h3>Mande uma mensagem:</h3>
+            <form>
+                <input type="text" name="name" id="name" placeholder="Seu nome" class="form-entry">
+                <input type="email" name="email" id="email" placeholder="Email"  class="form-entry">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem" class="form-entry"></textarea>
+                <button id="send-message">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <img>
+        <P>
+            &copy; TechWare solutions 2025
+        </P>
+    </footer>
 </body>
 </html>
