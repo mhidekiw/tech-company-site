@@ -24,7 +24,7 @@ module.exports = {
     devServer: {
         open: "index.html",
         static: {
-            directory: path.join(__dirname, 'dist'),
+            directory: path.join(__dirname, "dist")
         },
         port: 8080,
     }
