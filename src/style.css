@@ -17,32 +17,37 @@ body {
 }
 
 .homepage-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     text-align: center;
-    min-height: 30rem;
+    min-height: 15rem;
 
     position: relative;
 
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1)), url(background.webp);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,.9)), url(background.webp);
     background-position: center;
     background-size: cover;
 }
 
 header h1 {
+    position:absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display:block;
     font-size: 3rem;
     letter-spacing: .5rem;
     font-weight: 100;
+    white-space: nowrap;
+
 }
 
 header nav {
     position: absolute;
     justify-content: center;
     gap: 3rem;
-    bottom: 2rem;
+    bottom: 1rem;
     display: flex;
-    padding: 1.25rem;
+    padding: 1rem;
     
     width: 100%;
     
